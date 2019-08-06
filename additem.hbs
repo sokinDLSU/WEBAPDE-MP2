@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <style>
+            
+            .header {
+                list-style-type: none;
+                position:static
+                margin: 0;
+                padding: 0;
+                border: 10;
+                overflow: hidden;
+                background-color: white;
+                border-bottom: 1px solid black;
+            }
+            .header input {
+                font-family: "Roboto", sans-serif;
+                outline: 0;
+                background: white;
+                width: 20%;
+                margin: 0 0 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                font-size: 14px;
+            }
+            .header button {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: white;
+                background-color: #33a0e8;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 10px;
+                transition: all ease 0.3s;
+                cursor: pointer;
+                display: inline-block;
+                box-sizing: border-box;
+                text-decoration: none;
+            }
+            #logo{
+                height: 50px;
+                width: 75px;
+                float: left;
+            }
+            .l1{
+                font-family: "Roboto", sans-serif;              
+                font-size: 20px;
+                padding-bottom: 20px;
+                display: inline-block;
+            }
+            .l2{
+
+                font-family: "Roboto", sans-serif;         
+   
+                font-size: 15px;
+                color: black;
+            }
+            .l25{
+
+                font-family: "Roboto", sans-serif;         
+                font-weight: bold;
+                font-size: 15px;
+                color: black;
+            }            
+            .l3{
+                font-size: 10px;
+                color: gray
+                    
+                }            
+            .l4{
+                font-family: "Helvetica";
+                font-size: 30px;
+                display: inline-block; 
+                font-weight: bold;
+                padding-top: 10px;
+                padding-bottom: 10px;
+ 
+            }
+            .l5 {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-size: 20px;
+                line-height: 26px;
+                text-align: center;
+                color: white;
+                background-color: #33a0e8;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 10px;
+                display: inline-block;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-weight: bold;   
+            }               
+			
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+			.form {
+				
+			  position: relative;
+			  background-color: antiquewhite;
+			  z-index: 1;
+			  background: #FFFFFF;
+			  max-width: 800px;
+			  margin: 0 auto 100px;
+			  padding-left: 45px;
+				padding-top: 45px;
+				margin-top: 20px;
+				margin-left: 220px;
+				padding-bottom: 45px;
+				padding-right: 45px;
+				
+			  
+			  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+			}
+
+        .form input {
+                font-family: "Roboto", sans-serif;
+                outline: 0;
+                background: white;
+                width: 350px;
+                margin: 0 0 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid grey;
+                font-size: 14px;
+                
+            }
+
+			.form button {
+			  font-family: "Roboto", sans-serif;
+			  outline: 0;
+			  background: #33a0e8;
+			  border-radius: 10px;
+			  width: 50%;
+			  border: 0;
+			  padding: 15px;
+			  color: white;
+			  font-size: 14px;
+			  -webkit-transition: all 0.3 ease;
+			  transition: all 0.3 ease;
+			  cursor: pointer;
+			}
+
+			.form .message {
+			  margin: 15px 0 0;
+			  color: #000000; 
+			  font-size: 12px;
+			}
+			.form .message a {
+			  color: #000000;  
+			  text-decoration: none;
+			}            
+			.form img{
+				width: 60px;
+				height: 60px;
+				cursor: pointer;
+			}
+			.form select{
+				width: 350px;
+				font-family: "Roboto", sans-serif;
+                margin: 0 0 15px;
+                padding: 10px;
+                font-size: 14px;				
+			}
+			.form td{
+				padding-left: 10px;
+			}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+        <a href=home.html>
+        <div> <img src="olxlogo.jpg" id="logo"/> </div>
+        </a>
+        <input type="text" placeholder="Search"/>
+        <input type="text" placeholder="Location"/> 
+        <a href="home.html">
+        <button>Search</button>
+            </a>
+        <a href=login.html>
+        <button style="float: right">Log Out</button>
+            </a>
+        <a href=additem.html>
+        <button>Add Item</button>
+            </a>
+        </div>
+        <div class="form">
+            <form action="item.html"/>
+            <div class="l4">Sell your item now </div>
+            <table>
+                <tr><td><div class="l2">What are you selling?</div></td>
+                    <td> <input type="text" name="itemname" placeholder=""/></td>
+                </tr>
+                <tr><td><div class="l2">Price</div></td>
+                    <td> <input type="text" name="price" placeholder=""/></td>
+                </tr>                
+                
+                <tr><td><div class="l2">Choose a category</div></td>
+                    <td> <select>
+						<option>Phones and Tablets</option>
+						<option>Gadgets</option>
+						<option>Computer</option>
+						<option>Heavy Truck and Machineries</option>
+						<option>Services</option>
+						<option>Business and Earning Opportunities</option>
+						<option>Real Estate</option>
+						<option>Sports</option>
+						<option>Books</option>		
+						<option>Clothing and Accessories</option>
+						<option>Cars and Automotives</option>
+						<option>Baby Stuff and Toys</option>						
+						
+					</select></td>
+                </tr>
+
+                <tr><td><div class="l2">Description</div></td>
+                    <td> <textarea rows="5" cols="47">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr><br></tr>
+                <tr><td><div class="l2">Upload Photos</div></td>
+                    <td> <img src="add.jpg">
+                        <img src="add.jpg">
+                        <img src="add.jpg">
+                    </td>
+                </tr>                
+            </table> 
+            <button type="submit">Submit</button>
+                
+        </div>
+        
+    </body>
+</html>

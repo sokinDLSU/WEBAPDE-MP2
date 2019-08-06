@@ -1,0 +1,288 @@
+<html>
+    <head>
+        <style>
+            
+            .header {
+                list-style-type: none;
+                position:static
+                margin: 0;
+                padding: 0;
+                border: 10;
+                overflow: hidden;
+                background-color: white;
+                border-bottom: 1px solid grey;
+							
+            }
+            .header input {
+                font-family: "Roboto", sans-serif;
+                outline: 0;
+                background: white;
+                width: 20%;
+                margin: 0 0 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                font-size: 14px;
+            }
+            .header button {
+                font-family: "Roboto", sans-serif;
+                font-style: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                color: white;
+                background-color: #33a0e8;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 10px;
+                transition: all ease 0.3s;
+                cursor: pointer;
+                display: inline-block;
+                box-sizing: border-box;
+                text-decoration: none;
+            }
+            
+            .categs {
+                float: left;
+                padding: 10px;
+                width: 20%;        
+                border-right: 1px solid black;
+            }
+            .list{
+                padding: 10px;
+                width: 80%;
+                padding: 10px;
+            }
+            
+            
+            *{
+                box-sizing: border-box;
+            }
+             .column {
+                float: left;
+                padding: 10px;
+            }
+
+            .left {
+                width: 20%;
+                border-right: 1px solid black;
+            }
+
+            .right {
+                padding-left: 25px;
+                width: 80%;
+                border-left: 1px solid black;
+            }           
+            .l1{
+                font-family: "Roboto", sans-serif;              
+                font-size: 20px;
+                padding-bottom: 20px;
+                display: inline-block;
+            }
+            .l2{
+
+                font-family: "Roboto", sans-serif;         padding-top: 5px;     
+                font-size: 15px;
+                color: black;
+            }
+            .l3{
+                font-size: 10px;
+                color: gray
+                    
+                }
+            td{
+                padding-right: 25px;
+                padding-bottom: 25px;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            #logo{
+                height: 50px;
+                width: 75px;
+                float: left;
+            }
+            
+                        
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a href=home.html>
+            <div> <img src="olxlogo.jpg" id = "logo"/> </div>
+            </a>
+            <input type="text" placeholder="Search"/>
+            <input type="text" placeholder="Location"/> 
+            <a href="home.html">
+            <button>Search</button>
+            </a>
+            <a href=login.html>
+            <button style="float: right">Log Out</button>
+            </a>
+            <a href=additem.html>
+            <button>Add Item</button>
+            </a>
+        </div>  
+        
+        <div class="column left" style="background-color:white;">
+            <div class="l1">Categories</div>
+            <a href=home.html>
+            <div class="l2">Mobile Phones and Tablets</div>
+            <div class="l2">Cars And Automotives</div>
+            <div class="l2">Heavy Machinery and Trucks</div>
+            <div class="l2">Construction and Farming</div>
+            <div class="l2">Business and Earning Opportunities</div>
+            <div class="l2">Jobs</div>
+            <div class="l2">Services</div>
+            <div class="l2">Motorcycle and Scooters</div>
+            <div class="l2">Real Estate</div>
+            <div class="l2">Computers</div>
+            <div class="l2">Baby Stuff and Toys</div>
+            <div class="l2">Books</div>
+            <div class="l2">Sports</div>
+            <div class="l2">Clothing and Accessories</div>
+            <div class="l2">Beauty</div>
+            <div class="l2">Consumer Electronics</div>
+            <div class="l2">Pets</div>
+                
+            </a>
+            <br>
+
+            <hr>
+            <div class="l1">Locations</div>
+            <div class="l2">Metro Manila</div>
+            <div class="l2">Cavite</div>
+            <div class="l2">Batangas</div>
+            <div class="l2">Bulacan</div>
+            <div class="l2">Pangasinan</div>
+            <div class="l2">Rizal</div>
+            <div class="l2">Pampanga</div>            
+            <div class="l2">Bataan</div>
+            <div class="l2">Cebu</div>            
+            
+        </div>
+        
+        <div class="column right" style="background-color:white;">
+            <div class="l1">All Ads</div>
+            <div style="float: right">
+            <select>
+                <option>Date Posted</option>
+                <option>Cheapest First</option>
+                <option>Expensive First</option>            
+            </select>
+            </div>            
+            <div class="l1" style="float: right; padding-right: 5px">Sort by: </div>
+            
+            <div style="border-top: 1px solid black">
+            <a href="item.html">
+            <table>
+                <tr>
+                    <td>
+                    <img src="note9.jpg"/>
+                    <div class="l2">P 35000</div>
+                    <div class="l2">Samsung Galaxy Note 9</div>
+                    <div class="l3">Manila, Metro Manila</div>
+                    </td>
+                    
+                    <td>                    
+                        <img src="aveeno.jpg"/>
+                        <div class="l2">P 800</div>
+                        <div class="l2">Aveeno Lotion</div>
+                        <div class="l3">Pasay, Metro Manila</div>
+                    </td>
+                    <td>
+                        <img src="husky.jpg"/>
+                        <div class="l2">P 17000</div>
+                        <div class="l2">PlayStation 4 Pro</div>
+                        <div class="l3">Bacoor, Cavite</div>
+                    </td>
+                    <td>
+                        <img src="galaxybuds.jpg"/>
+                        <div class="l2">P 5500</div>
+                        <div class="l2">Samsung Galaxy Buds-Gray</div>
+                        <div class="l3">Manila, Metro Manila</div>                    
+                    </td>
+                    <td>
+                        <img src="tresemmeshampoo.jpeg"/>
+                        <div class="l2">P 400</div>
+                        <div class="l2">Tresemme Shampoo</div>
+                        <div class="l3">Manila, Metro Manila</div>                    
+                    </td>                    
+                </tr>
+                <tr>
+                    <td>
+                    <img src="necakratos.jpg"/>
+                    <div class="l2">P 3000</div>
+                    <div class="l2">NEKA Kratos Action Figure</div>
+                    <div class="l3">Calamba, Laguna</div>
+                    </td>
+                    
+                    <td>                    
+                        <img src="rtx2080.jpg"/>
+                        <div class="l2">P 28000</div>
+                        <div class="l2">Aveeno Lotion</div>
+                        <div class="l3">Quezon City, Metro Manila</div>
+                    </td>
+                    <td>
+                        <img src="tresemmeshampoo.jpeg"/>
+                        <div class="l2">P 500</div>
+                        <div class="l2">Tresemme Shampoo</div>
+                        <div class="l3">Imus, Cavite</div>
+                    </td>
+                    <td>
+                        <img src="uratexbed.jpg"/>
+                        <div class="l2">P 2000</div>
+                        <div class="l2">Uratex Sofabed</div>
+                        <div class="l3">Pasig, Metro Manila</div>                    
+                    </td>
+                    <td>
+                        <img src="ps4.jpg"/>
+                        <div class="l2">P 12000</div>
+                        <div class="l2">PlayStation 4</div>
+                        <div class="l3">Pasig, Metro Manila</div>                    
+                    </td>                    
+                </tr>
+
+                <tr>
+                    <td>
+                    <img src="ps4.jpg"/>
+                    <div class="l2">P 16000</div>
+                    <div class="l2">PlayStation 4 Pro</div>
+                    <div class="l3">Taguig, Metro Manila</div>
+                    </td>
+                    
+                    <td>                    
+                        <img src="aveeno.jpg"/>
+                        <div class="l2">P 800</div>
+                        <div class="l2">Aveeno Lotion</div>
+                        <div class="l3">Pasay, Metro Manila</div>
+                    </td>
+                    <td>
+                        <img src="bedspacer.jpg"/>
+                        <div class="l2">P 4000</div>
+                        <div class="l2">BedSpacer for Girls</div>
+                        <div class="l3">Bacoor, Cavite</div>
+                    </td>
+                    <td>
+                        <img src="microwave.jpg"/>
+                        <div class="l2">P 2500</div>
+                        <div class="l2">LG Microwave</div>
+                        <div class="l3">Manila, Metro Manila</div>                    
+                    </td>
+                    <td>
+                        <img src="gallardo.jpg"/>
+                        <div class="l2">P 15000000</div>
+                        <div class="l2">Lamborghini Gallardo</div>
+                        <div class="l3">Manila, Metro Manila</div>                    
+                    </td>                    
+                </tr>                
+            </table>
+            </a>
+            </div>
+        </div>
+    </body>
+</html>
+
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Droid Sans,Helvetica Neue,sans-serif;
